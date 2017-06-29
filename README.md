@@ -11,3 +11,7 @@ You can extend the funcnality by adding more activities or entity as per your re
 >User can switch to today any time.
 >You can extend color coding.
 
+I have added bookable resource booking also in this calendar. 
+Make if you should comment or remove ' retrieveDatabyFetch(fetchXmlBRB, "1");' function in
+'crmCalender.js' web resource.
+Now you can also create activities from calendar page.
