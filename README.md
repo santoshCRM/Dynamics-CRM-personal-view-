@@ -1,17 +1,17 @@
 # CRM Single Calender 
-In CRM we alwayz want a single calender where we can find our all work at single glance but 
-their is no such process.
+In CRM as a developer we alwayz want to managed Personal Viwes created by users.
+But in Dyanmics CRM/365 their is no provision to see other user personal view and change their share properties.
 
-This solution provide single calender for  activities (appointment,phonecall,task).
-You can extend the funcnality by adding more activities or entity as per your requirement. 
->It will show all these activities in single glance.
->User can open activity directly from single calnder.
->I have add this as web resource, so you can add this in Dashboard or in site map.
->It have multiple view like month, week or day.
->User can switch to today any time.
->You can extend color coding.
+I have create a plugin for Xrm toolbox.
+with the help of this plugin you are able to see Personal views created by other users.
+1. Install plugin to XRM tollbox.
+2. Open "Personel View" plugin.
+3. Click on "Retrieve Users" to get list of all users with that organization.
+4. Select any user from user drop down list, it will show all "personel view" whose owner is selected user.
+5. "Double click" on  any View from that list. It will show team within user "business unit".
+and user list and show all access list for that view.
+6. Double click on any team or user which is not in access list, it will add user or team in access list.
+7. Do required access modification in Access list.
+8. Click on "Run" to submit the cnanges.
 
-I have added bookable resource booking also in this calendar. 
-Make if you should comment or remove ' retrieveDatabyFetch(fetchXmlBRB, "1");' function in
-'crmCalender.js' web resource.
-Now you can also create activities from calendar page.
+Note:- Remove all access from access list for particular team or user, if you want to remove share for that user or team.
