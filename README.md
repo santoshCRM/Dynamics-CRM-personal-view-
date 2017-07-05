@@ -1,4 +1,4 @@
-# CRM Single Calender 
+# Dynamics CRM: Personal-view
 In CRM as a developer we alwayz want to managed Personal Viwes created by users.
 But in Dyanmics CRM/365 their is no provision to see other user personal view and change their share properties.
 
